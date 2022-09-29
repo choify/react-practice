@@ -3,7 +3,7 @@ import Post from './Post'
 import { useInfiniteQuery } from 'react-query'
 import { getPostsPage } from '../../api/axios'
 
-const InfiniteScrollExample2 = () => {
+const InfiniteScrollExample2 = (searchResults) => {
 
     const {
         fetchNextPage, //function 
@@ -35,6 +35,7 @@ const InfiniteScrollExample2 = () => {
     }, [isFetchingNextPage, fetchNextPage, hasNextPage])
 
     if (status === 'error') return <p className='center'>Error: {error.message}</p>
+
 
     const content = data?.pages.map(pg => {
         return pg.map((post, i) => {
