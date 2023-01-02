@@ -13,14 +13,12 @@ const month = ('0' + (yesterday.getMonth() + 1)).slice(-2);
 const day = ('0' + yesterday.getDate()).slice(-2);
 const date = year + month + day
 
-
-
 export const getDailyMoives = async () => {
-    const response = await axios.get(`${dailyBoxOffice}?key=${key}&targetDt=${date}`)
-    return response
-}
+    const response = await axios.get(`${dailyBoxOffice}?key=${key}&targetDt=${date}`);
+    return response;
+};
 
-export const getSearchMoiveList = async () => {
-    const response = await axios.get(`${searchMoiveList}?key=${key}&curPage=1&itemPerPage=100&openStartDt=2022`)
-    return response
-}
+export const getSearchMoiveList = async (pageParam = 1, year = 2022, options = {}) => {
+    const response = await axios.get(`${searchMoiveList}?key=${key}&curPage=${pageParam}&itemPerPage=100&openStartDt=${year}`, options);
+    return response;
+};

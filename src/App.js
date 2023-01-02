@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import {getSearchMoiveList} from "./api/api";
+import {getSearchMoiveList} from "./api/axios";
 import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
