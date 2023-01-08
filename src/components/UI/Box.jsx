@@ -1,10 +1,10 @@
-import * as React from 'react';
-import Box from '@mui/joy/Box';
-import Card from '../UI/Card';
+import MaterialBox from '@mui/joy/Box';
 
-const UserList = () => {
+
+
+const Box = (props) => {
     return (
-        <Box
+        <MaterialBox
             sx={{
                 py: 2,
                 display: 'flex',
@@ -14,10 +14,11 @@ const UserList = () => {
                 flexWrap: 'wrap',
                 backgroundColor: '#f1f1f1',
             }}
+            className={props.className}
         >
-            <Card />
-        </Box>
+            {props.children}
+        </MaterialBox>
     );
-}
+};
 
-export default UserList;
+export default Box;
