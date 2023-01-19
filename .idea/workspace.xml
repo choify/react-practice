@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c87b530-31f7-4dfd-a0ab-fd634252c653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewUser/AddComment.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Box.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/ErrorModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/ErrorModal.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Wrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Wrapper.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserList/CommentItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserList/CommentList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewUser/NewUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserList/UserList.js" beforeDir="false" />
-    </list>
+    <list default="true" id="6c87b530-31f7-4dfd-a0ab-fd634252c653" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,20 +22,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/choigo/development/git/react-practice/src/components/UI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/choigo/development/git/react-practice/src/components/UI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/UI" />
@@ -69,6 +52,7 @@
       <workItem from="1672444558949" duration="2049000" />
       <workItem from="1673147849842" duration="3702000" />
       <workItem from="1673155556050" duration="9522000" />
+      <workItem from="1673230798673" duration="14000" />
     </task>
     <servers />
   </component>
