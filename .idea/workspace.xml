@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c87b530-31f7-4dfd-a0ab-fd634252c653" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewUser/AddComment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewUser/AddComment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/ErrorModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ErrorModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ModalCard.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="6c87b530-31f7-4dfd-a0ab-fd634252c653" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +53,7 @@
       <workItem from="1673147849842" duration="3702000" />
       <workItem from="1673155556050" duration="9522000" />
       <workItem from="1673230798673" duration="14000" />
-      <workItem from="1674191897486" duration="4752000" />
+      <workItem from="1674191897486" duration="5537000" />
     </task>
     <servers />
   </component>
