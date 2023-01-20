@@ -1,27 +1,22 @@
-import React, {useState} from 'react'
-import AddComment from "./components/NewUser/AddComment";
-import CommentList from "./components/UserList/CommentList";
+import React, { useContext } from 'react';
 
+import Login from './components/Login/Login';
+import Home from './components/Home/Home';
+import MainHeader from './components/MainHeader/MainHeader';
+import AuthContext from './store/auth-context';
 
 function App() {
-    const [commentsList, setCommentsList] = useState([])
-    const addUserHandler = (uCommnet) => {
-        setCommentsList((prevCommentsList) => {
-          return [
-              ...prevCommentsList,
-              { comment:uCommnet, id: Math.random().toString() }
-          ];
-      });
-    };
-    return (
-        <div>
-            <header>
-                <h1>테스트</h1>
-            </header>
-            <AddComment onAddComment={addUserHandler} />
-            <CommentList comments={commentsList}/>
-        </div>
-    );
+  const ctx = useContext(AuthContext);
+
+  return (
+    <React.Fragment>
+      <MainHeader />
+      <main>
+        {!ctx.isLoggedIn && <Login />}
+        {ctx.isLoggedIn && <Home />}
+      </main>
+    </React.Fragment>
+  );
 }
 
 export default App;
